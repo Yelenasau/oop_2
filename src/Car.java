@@ -4,11 +4,5 @@ public class Car extends MotorTransport {
         super(modelName, wheelsCount);
     }
 
-    @Override
-    public void servise() {
-        for (int i = 0; i < getWheelsCount(); i++) {
-            updateTyre();
-            checkEngine();
-        }
-    }
+
 }

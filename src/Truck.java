@@ -6,12 +6,14 @@ public class Truck extends MotorTransport {
         System.out.println("Проверяем прицеп");
     }
     @Override
-    public void servise() {  for (int i = 0; i < getWheelsCount(); i++) {
+    public void service() {
+        for (int i = 0; i < getWheelsCount(); i++) {
         updateTyre();
+        checkTrailer();
     }
         checkEngine();
 
-        checkTrailer();
+
     }
 }
 
