@@ -7,14 +7,12 @@ public class Truck extends MotorTransport {
     }
     @Override
     public void service() {
-        for (int i = 0; i < getWheelsCount(); i++) {
-        updateTyre();
+        super.service();
         checkTrailer();
     }
-        checkEngine();
 
 
     }
-}
+
 
 

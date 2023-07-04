@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        Vehicle_ car = new Car("Mazda", 4);
+        Vehicle car = new Car("Mazda", 4);
         Car car2 = new Car("Honda", 4);
 
 
@@ -9,7 +9,7 @@ public class Main {
 
 
         Bicycle bicycle = new Bicycle("Street", 2);
-        Vehicle_ bicycle2 = new Bicycle("Steels", 2);
+        Vehicle bicycle2 = new Bicycle("Steels", 2);
 
         ServiceStation station = new ServiceStation();
         station.check(car);

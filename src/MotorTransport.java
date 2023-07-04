@@ -1,4 +1,4 @@
-public abstract class MotorTransport extends Vehicle_{
+public abstract class MotorTransport extends Vehicle {
     public MotorTransport(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
     }
@@ -6,11 +6,11 @@ public abstract class MotorTransport extends Vehicle_{
         System.out.println("Проверяем двигатель");
     }
 
+
     @Override
-     void service () {
+    public void service() {
         super.service();
         checkEngine();
-
     }
 }
 
